@@ -1,7 +1,5 @@
 package vamanproject;
 
-import java.lang.reflect.Method;
-
 public class Student {
  String name;
  int age;
@@ -10,8 +8,11 @@ public class Student {
  
 
   static boolean isScholer(float percentage) {
-	  percentage >= 85.00
+	 return percentage >= 85.00;
 			  };
  
+ static boolean isPass(float percentage) {
+	return percentage >=33.33;
+ }
  
 }
